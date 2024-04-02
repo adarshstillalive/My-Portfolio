@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADARSH KS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="navbar">
+    <div class="logo">
+      ADARSH K S
+    </div>
+    <div>
+      <ul class="navlinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamnav">
+    <div class="logo">
+      ADARSH K S
+    </div>
+    <div class="hammenu">
+      <div class="hammenuicon" onclick="dropmenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="hammenulinks">
+        <li><a href="#about" onclick="dropmenu()">About</a></li>
+        <li><a href="#experience" onclick="dropmenu()">Experience</a></li>
+        <li><a href="#project" onclick="dropmenu()">Project</a></li>
+        <li><a href="#contact" onclick="dropmenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="sectionimgcontainer">
+      <img src="images/backimagebw.png" alt="adarsh's picture">
+    </div>
+    <div class="sectiontext">
+      <p class="sectiontextp1">
+        Hello, I'am
+      </p>
+      <h1 class="title">ADARSH K S</h1>
+      <p class="sectiontextp2">
+        Pursuing web development
+      </p>
+      <div class="buttoncontainer">
+        <button class="btn button1" onclick="window.open('images/resume.pdf')">Download CV</button>
+        <button class="btn button2" onclick="location.href='#contact'">Contact Info</button>
+      </div>
+      <div id="socialscontainer">
+        <img src="images/linkedin.png" onclick="location.href='https://www.linkedin.com/in/adarsh-k-s-aa8048251/'" class="icon" alt="LinkedIn icon">
+        <img src="images/github.png" onclick="location.href='https://github.com/adarshstillalive'" class="icon" alt="Github icon">
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="sectiontextp1">
+      Get to know more
+    </p>
+    <h1 class="title">About Me</h1>
+    <div class="sectioncontainer">
+      <div class="sectionimgcontainer">
+        <img src="images/profilepic.jpg" alt="profile picture" class="aboutpic">
+      </div>
+      <div class="aboutdetailscontainer">
+        <div class="aboutcontainers">
+          <div class="detailscontainer">
+            <img src="images/experience.png" alt="experience icon" class="icon">
+            <h3>Experience</h3>
+            <p>1+ month<br> Frontend Development</p>
+          </div>
+          <div class="detailscontainer">
+            <img src="images/education.png" alt="education icon" class="icon">
+            <h3>Education</h3>
+            <p>Diploma in mechanical engineering<br>Self pursuing web development</p>
+          </div>
+        </div>
+        <div class="textcontainer">
+          <p>I'Am a diploma holder in mechanical engineering with an experience of 2+ years as operating engineer, specialised in automobile sector. Now I'Am pursuing web development by self under the training of Brototype.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="experience">
+    <p class="sectiontextp1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experiencedetailscontainer">
+      <div class="aboutcontainer">
+        <div class="detailscontainer">
+          <h2 class="experiencesubtitle">Frontend Development</h2>
+          <div class="articlecontainer">
+            <article>
+              <img src="images/checkmark.png" alt="checkmark" class="icon">
+              <div>
+                <h1>HTML</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/checkmark.png" alt="checkmark" class="icon">
+              <div>
+                <h1>CSS</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/checkmark.png" alt="checkmark" class="icon">
+              <div>
+                <h1>JavaScript</h1>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="detailscontainer">
+          <h2 class="experiencesubtitle">Backend Development</h2>
+          <div class="articlecontainer">
+            <article>
+              <img src="images/checkmark.png" alt="checkmark" class="icon">
+              <div>
+                <h1>C</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/checkmark.png" alt="checkmark" class="icon">
+              <div>
+                <h1>Java</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/checkmark.png" alt="checkmark" class="icon">
+              <div>
+                <h1>JavaScript</h1>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <p class="sectiontextp1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experiencedetailscontainer">
+      <div class="aboutcontainer">
+        <div class="detailscontainer colorcontainer">
+          <div class="articlecontainer">
+            <img src="images/ibmproimg.webp" alt="project 1" class="project1img">
+          </div>
+          <h2 class="ecperiencesubtitle projecttitle">Webpage clone</h2>
+          <div class="buttoncontainer">
+            <button class="btn button1 projectbutton" onclick="location.href='https://github.com/adarshstillalive/Ibm-clone'">
+              Github
+            </button>
+            <button class="btn button2 projectbutton" onclick="location.href='https://adarshstillalive.github.io/Ibm-clone/'">
+                Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="detailscontainer colorcontainer">
+          <div class="articlecontainer">
+            <img src="images/spotifyproimg.jpg" alt="project 2" class="project1img">
+          </div>
+          <h2 class="ecperiencesubtitle projecttitle">Webpage clone</h2>
+          <div class="buttoncontainer">
+            <button class="btn button1 projectbutton" onclick="location.href='https://github.com/adarshstillalive/Spotify-Clone'">
+              Github
+            </button>
+            <button class="btn button2 projectbutton" onclick="location.href='https://adarshstillalive.github.io/Spotify-Clone/'">
+                Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <section id="contact">
+    <p class="sectiontextp1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+      <div class="detailscontainer">
+        <form id="form" method="post"  actions="">
+          <div class="formfields">
+            <div class="formfields1">
+              <input type="text" id="fname" name="name" required placeholder="Full Name">
+            </div>
+            <div class="formfields1">
+              <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="formfields1">
+              <input type="text" id="phn-number" name="conumber" placeholder="Contact number">
+            </div>
+            <div class="formfields1">
+              <textarea id="subject" name="message" required placeholder="Feel free to write..."></textarea>
+            </div>
+            <div>
+              <input type="submit" id="submitin" value="Send">
+            </div>
+          </div>
+          
+          
+        </form>
+        <div
+      id="message"
+      style="
+        display: none;
+        margin: 20px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        padding: 8px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 4px;
+        border-color: rgb(0, 0, 0);
+      "
+    ></div>
+      </div>
+  </section>
+  <footer>
+    <p>Copyright &#169; 2024 Adarsh KS. All rights reserved</p>
+  </footer>
+  <button id="toparrow">
+    <a href="#profile"><img src="images/Arrow-top.png"></a>
+  </button>
+  <script>
+    document.getElementById("form").addEventListener("submit", function (e) {
+      e.preventDefault(); // Prevent the default form submission
+      document.getElementById("message").textContent = "Submitting..";
+      document.getElementById("message").style.display = "block";
+      document.getElementById("submitin").disabled = true;
+
+      // Collect the form data
+      var formData = new FormData(this);
+      var keyValuePairs = [];
+      for (var pair of formData.entries()) {
+        keyValuePairs.push(pair[0] + "=" + pair[1]);
+      }
+
+      var formDataString = keyValuePairs.join("&");
+
+      // Send a POST request to your Google Apps Script
+      fetch(
+        "https://script.google.com/macros/s/AKfycbxdGLRpmDMeLb7MDJFyFEFafTOocTV9RiUTCGw0iJNCzYU8ABjIzPgmtVHvKykjpWOA-Q/exec",
+        {
+          redirect: "follow",
+          method: "POST",
+          body: formDataString,
+          headers: {
+            "Content-Type": "text/plain;charset=utf-8",
+          },
+        }
+      )
+        .then(function (response) {
+          // Check if the request was successful
+          if (response) {
+            return response; // Assuming your script returns JSON response
+          } else {
+            throw new Error("Failed to submit the form.");
+          }
+        })
+        .then(function (data) {
+          // Display a success message
+          document.getElementById("message").textContent =
+            "Data submitted successfully!";
+          document.getElementById("message").style.display = "block";
+          document.getElementById("message").style.backgroundColor = "green";
+          document.getElementById("message").style.color = "beige";
+          document.getElementById("submitin").disabled = false;
+          document.getElementById("form").reset();
+
+          setTimeout(function () {
+            document.getElementById("message").textContent = "";
+            document.getElementById("message").style.display = "none";
+          }, 2600);
+        })
+        .catch(function (error) {
+          // Handle errors, you can display an error message here
+          console.error(error);
+          document.getElementById("message").textContent =
+            "An error occurred while submitting the form.";
+          document.getElementById("message").style.display = "block";
+        });
+    });
+  </script>
+  <script src="index.js"></script>
+</body>
+</html>
